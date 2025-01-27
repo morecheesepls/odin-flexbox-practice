@@ -7,9 +7,8 @@
 .main-container {
     border: 1px solid green;
     background-color: rgb(230, 255, 191);
-    display: flex;
-    padding: 10px;
-    height: 100%;
+    display: column;
+    padding: 5px;
 }
 
 /* Top Row of Containers */
@@ -42,10 +41,20 @@
 }
 
 /* Middle Row of Containers */
-.mid-container-one {
-    border: maroon;
-    background-color: pink;
-    flex: 1;
+.mid-container {
+    margin: 5px 0;
     height: 100px;
-    width: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mid-container-one {
+    border: 1px solid maroon;
+    background-color: pink;
+}
+
+.mid-containers-two-and-three {
+    border: 1px solid maroon;
+    background-color: pink;
 }
