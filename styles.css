@@ -8,14 +8,13 @@
 body {
     border: 1px solid green;
     background-color: lightgreen;
-    flex-direction: flex;
-    flex-wrap: wrap;
 }
 
 body > div {
     height: 75px;
     margin: 5px;
     padding: 5px;
+    justify-content: center;
 }
 
 .container-one {
@@ -35,17 +34,20 @@ body > div {
 .container-two {
     border: 1px solid darkred;
     background-color: pink;
+    margin: 5px;
     flex: 1;
 }
 
 .container-three {
     border: 1px solid darkred;
     background-color: pink;
+    margin: 5px;
     flex: 1;
 }
 
 .container-four {
     border: 1px solid blue;
     background-color: lightblue;
+    margin: 5px;
     flex: 1;
 }
