@@ -8,27 +8,43 @@
 body {
     border: 1px solid green;
     background-color: lightgreen;
-    display: column;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 body > div {
-    justify-content: space-around;
+
     height: 75px;
     margin: 5px;
-    flex: 1;
 }
 
-.main-top-container {
+.container-one {
     border: 1px solid blue;
     background-color: lightblue;
+    flex: 1 0 auto;
+    width: 100%;
 }
 
-.main-mid-container {
+.container-two {
     border: 1px solid darkred;
     background-color: pink;
+    width: 50%;
 }
 
-.main-bot-container {
+.container-three {
+    border: 1px solid darkred;
+    background-color: pink;
+    width: 50%;
+}
+
+.container-four {
+    border: 1px solid darkred;
+    background-color: pink;
+    width: 50%;
+}
+
+.container-five {
     border: 1px solid blue;
     background-color: lightblue;
+    width: 100%;
 }
