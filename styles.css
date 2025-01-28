@@ -2,5 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
 }
 
+body {
+    border: 1px solid green;
+    background-color: lightgreen;
+    display: column;
+}
+
+body > div {
+    justify-content: space-around;
+    height: 75px;
+    margin: 5px;
+    flex: 1;
+}
+
+.main-top-container {
+    border: 1px solid blue;
+    background-color: lightblue;
+}
+
+.main-mid-container {
+    border: 1px solid darkred;
+    background-color: pink;
+}
+
+.main-bot-container {
+    border: 1px solid blue;
+    background-color: lightblue;
+}
