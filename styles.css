@@ -8,43 +8,44 @@
 body {
     border: 1px solid green;
     background-color: lightgreen;
-    display: flex;
+    flex-direction: flex;
     flex-wrap: wrap;
 }
 
 body > div {
-
     height: 75px;
     margin: 5px;
+    padding: 5px;
 }
 
 .container-one {
     border: 1px solid blue;
     background-color: lightblue;
-    flex: 1 0 auto;
-    width: 100%;
+    display: flex;
+    flex: 1;
+}
+
+.container-one > div {
+    border: 1px solid salmon;
+    background-color: peachpuff;
+    margin: 5px;
+    flex: 1;
 }
 
 .container-two {
     border: 1px solid darkred;
     background-color: pink;
-    width: 50%;
+    flex: 1;
 }
 
 .container-three {
     border: 1px solid darkred;
     background-color: pink;
-    width: 50%;
+    flex: 1;
 }
 
 .container-four {
-    border: 1px solid darkred;
-    background-color: pink;
-    width: 50%;
-}
-
-.container-five {
     border: 1px solid blue;
     background-color: lightblue;
-    width: 100%;
+    flex: 1;
 }
