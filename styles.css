@@ -31,18 +31,29 @@ body > div {
     flex: 1;
 }
 
+.mid-container {
+    background-color: lightgreen;
+    display: flex;
+    margin: 0px;
+    gap: 5px;
+}
+
 .container-two {
     border: 1px solid darkred;
     background-color: pink;
-    margin: 5px;
     flex: 1;
 }
 
 .container-three {
+    background-color: lightgreen;
+    display: column;
+    flex: 1;
+}
+
+.three-one, .three-two {
     border: 1px solid darkred;
     background-color: pink;
-    margin: 5px;
-    flex: 1;
+    height: 50%;
 }
 
 .container-four {
