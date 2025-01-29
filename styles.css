@@ -8,13 +8,15 @@
 body {
     border: 1px solid green;
     background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    width: 150vh;
 }
 
 body > div {
-    height: 75px;
+    height: 100px;
     margin: 5px;
-    padding: 5px;
-    justify-content: center;
 }
 
 .container-one {
@@ -31,11 +33,22 @@ body > div {
     flex: 1;
 }
 
+.one-two {
+    display: flex;
+    padding: 2px;
+}
+
+.one-two > div {
+    border: 1px solid red;
+    background-color: pink;
+    flex: 1;
+}
+
 .mid-container {
     background-color: lightgreen;
     display: flex;
-    margin: 0px;
-    gap: 5px;
+    flex: 1;
+    gap: 2px;
 }
 
 .container-two {
@@ -46,19 +59,35 @@ body > div {
 
 .container-three {
     background-color: lightgreen;
-    display: column;
+    display: flex;
+    flex-direction: column;
     flex: 1;
+    gap: 2px;
 }
 
 .three-one, .three-two {
     border: 1px solid darkred;
     background-color: pink;
-    height: 50%;
+    flex: 1;
 }
 
 .container-four {
     border: 1px solid blue;
     background-color: lightblue;
+    display: flex;
+    flex: 1;
+}
+
+.four-one, .four-four {
+    border: 1px solid rgb(107, 60, 128);
+    background-color: rgb(207, 168, 224);
+    margin: 5px;
+    flex: 2;
+}
+
+.four-two, .four-three {
+    border: 1px solid salmon;
+    background-color: peachpuff;
     margin: 5px;
     flex: 1;
 }
